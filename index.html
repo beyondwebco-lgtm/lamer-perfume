@@ -26,8 +26,54 @@
   <!-- STYLES -->
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/prive-awakening.css">
 </head>
 <body>
+
+  <!-- ==========================================================================
+       THE PRIVÉ AWAKENING — LUXURY LOADING EXPERIENCE
+       ========================================================================== -->
+  <div class="prive-awakening-overlay" id="priveAwakeningOverlay" role="dialog" aria-modal="true" aria-label="Velari Privé Atelier Awakening">
+    <canvas class="awakening-canvas" id="awakeningCanvas"></canvas>
+
+    <!-- Micro Archival Annotations -->
+    <div class="awakening-annotations" id="awakeningAnnotations">
+      <div>VELARI PRIVÉ // ARCHIVE 01</div>
+      <button class="skip-intro-btn" id="skipIntroBtn" aria-label="Explore Immediately">Explore</button>
+      <div>PRECISION DERMACEUTICAL BIO-MATRIX</div>
+    </div>
+
+    <!-- Central Stage -->
+    <div class="awakening-stage">
+      <!-- Seed Light Particle -->
+      <div class="awakening-seed" id="awakeningSeed"></div>
+
+      <!-- Authentic Product Emergence -->
+      <div class="awakening-product-wrapper" id="awakeningProductWrapper">
+        <div class="awakening-product-rim-halo"></div>
+        <img 
+          src="assets/images/anagenese-hero-bottle.jpg" 
+          alt="Anagenèse The Regenerating Elixir by Velari Privé" 
+          class="awakening-product-img"
+        >
+      </div>
+
+      <!-- Typography Reveal -->
+      <div class="awakening-brand-group">
+        <h1 class="awakening-title" id="awakeningTitle">ANAGENÈSE</h1>
+        <div class="awakening-subtitle" id="awakeningSubtitle">The Regenerating Elixir</div>
+        <div class="awakening-maison" id="awakeningMaison">VELARI PRIVÉ</div>
+      </div>
+    </div>
+
+    <!-- Minimal Progress Strip -->
+    <div class="awakening-progress-wrapper">
+      <div class="awakening-progress-line">
+        <div class="awakening-progress-fill" id="awakeningProgressFill"></div>
+      </div>
+      <div class="awakening-progress-status" id="awakeningProgressStatus">INITIALISING THE RITUAL</div>
+    </div>
+  </div>
 
   <!-- ==========================================================================
        SITE HEADER & LUXURY NAVIGATION (SECTION 4)
@@ -1105,6 +1151,7 @@
   </aside>
 
   <!-- SCRIPTS -->
+  <script src="js/prive-awakening.js"></script>
   <script src="js/three-follicle.js"></script>
   <script src="js/scalp-atlas.js"></script>
   <script src="js/digital-atelier.js"></script>
