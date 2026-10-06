@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO METADATA -->
+  <title>ANAGENÈSE | The Regenerating Elixir — Velari Privé</title>
+  <meta name="description" content="Discover ANAGENÈSE by Velari Privé, an evidence-optimised dermaceutical scalp and hair-density serum designed around precision formulation and scalp-first care.">
+  <meta name="keywords" content="Anagenese, Velari Prive, scalp serum, hair density elixir, Redensyl, Capixyl, Procapil, dermaceutical haircare, luxury scalp care">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="ANAGENÈSE | The Regenerating Elixir — Velari Privé">
+  <meta property="og:description" content="An evidence-optimised dermaceutical scalp and hair-density serum designed around multi-pathway scalp biology and a luxury daily ritual.">
+  <meta property="og:image" content="assets/images/anagenese-hero-bottle.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- FONTS: Cormorant Garamond, Inter, Cinzel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- THREE.JS LIBRARY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SITE HEADER & LUXURY NAVIGATION (SECTION 4)
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      
+      <!-- Brand Identity -->
+      <a href="#hero" class="brand-identity" id="brandLogo">
+        <span class="brand-monogram">VP</span>
+        <span class="brand-title">VELARI PRIVÉ</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="#intro" class="nav-link" id="navLinkElixir">The Elixir</a>
+        <a href="#science" class="nav-link" id="navLinkScience">The Science</a>
+        <a href="#actives" class="nav-link" id="navLinkActives">Complexes</a>
+        <a href="#follicle" class="nav-link" id="navLinkFollicle">3D Follicle</a>
+        <a href="#atlas" class="nav-link" id="navLinkAtlas">Scalp Atlas</a>
+        <a href="#ritual" class="nav-link" id="navLinkRitual">The Ritual</a>
+        <a href="#timeline" class="nav-link" id="navLinkTimeline">Milestones</a>
+        <a href="#object" class="nav-link" id="navLinkObject">The Object</a>
+      </nav>
+
+      <!-- Action Group -->
+      <div class="header-actions">
+        <button class="btn btn-ghost-dark btn-sm open-consultation-trigger" id="headerConsultationBtn" aria-label="Open Private Consultation">
+          Consultation
+        </button>
+
+        <button class="cart-toggle-btn open-cart-trigger" id="headerCartBtn" aria-label="View Ritual Bag">
+          <span>Bag</span>
+          <span class="cart-count" id="headerCartCount">1</span>
+        </button>
+
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open Mobile Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <line x1="3" y1="7" x2="21" y2="7"></line>
+            <line x1="3" y1="17" x2="21" y2="17"></line>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div class="cart-drawer-backdrop" id="mobileMenuBackdrop"></div>
+  <aside class="cart-drawer" id="mobileMenuDrawer" style="max-width:320px;" aria-label="Mobile Menu">
+    <div class="cart-drawer-header">
+      <div class="brand-title" style="font-size:1.1rem;">VELARI PRIVÉ</div>
+      <button id="closeMobileMenuBtn" style="background:none; border:none; font-size:1.5rem; cursor:pointer;">&times;</button>
+    </div>
+    <div class="cart-drawer-body">
+      <div style="display:flex; flex-direction:column; gap:1.75rem; padding-top:1rem;">
+        <a href="#intro" class="nav-link mobile-nav-link">The Elixir</a>
+        <a href="#science" class="nav-link mobile-nav-link">The Science</a>
+        <a href="#actives" class="nav-link mobile-nav-link">Key Complexes</a>
+        <a href="#follicle" class="nav-link mobile-nav-link">3D Follicle Installation</a>
+        <a href="#atlas" class="nav-link mobile-nav-link">Scalp Atlas</a>
+        <a href="#ritual" class="nav-link mobile-nav-link">The 4-Step Ritual</a>
+        <a href="#timeline" class="nav-link mobile-nav-link">Milestone Timeline</a>
+        <a href="#object" class="nav-link mobile-nav-link">The Object & Unboxing</a>
+        <a href="#product" class="nav-link mobile-nav-link">Acquire Elixir</a>
+        <div style="margin-top:1.5rem; padding-top:1.5rem; border-top:1px solid rgba(8,8,8,0.08);">
+          <button class="btn btn-primary-dark btn-sm open-consultation-trigger" style="width:100%;">Private Consultation</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       HERO SECTION (SECTION 5)
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-grid">
+      
+      <!-- Left Content -->
+      <div class="hero-content">
+        <div class="hero-badge-pill">
+          <span class="hero-badge-dot"></span>
+          <span>Dermaceutical Scalp Innovation</span>
+        </div>
+
+        <h1 class="display-title-hero hero-title">ANAGENÈSE</h1>
+        <div class="hero-subtitle">The Regenerating Elixir</div>
+        
+        <div class="hero-descriptor">
+          Evidence-Optimised Dermaceutical Scalp & Hair-Density Serum
+        </div>
+
+        <p class="editorial-lead" style="margin-bottom: 2rem;">
+          Engineered around multi-pathway scalp biology, dermal papilla communication, and uncompromised precision formulation. An ultra-concentrated elixir curated for discerning daily hair-density rituals.
+        </p>
+
+        <!-- Supporting Brand Pillars -->
+        <div class="hero-supporting-pillars">
+          <span class="pillar-item">Multi-Pathway Science</span>
+          <span class="pillar-item">Scalp-First Design</span>
+          <span class="pillar-item">Precision Formulation</span>
+          <span class="pillar-item">Luxury Daily Ritual</span>
+        </div>
+
+        <!-- Action CTAs -->
+        <div class="hero-cta-group">
+          <a href="#product" class="btn btn-primary-dark" id="heroDiscoverBtn">
+            Discover The Elixir
+          </a>
+          <a href="#science" class="btn btn-ghost-dark" id="heroScienceBtn">
+            Explore The Science
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Visual Stage (Real Product Photography) -->
+      <div class="hero-visual-stage">
+        <div class="hero-visual-frame">
+          <div class="hero-ambient-halo"></div>
+          <img 
+            src="assets/images/anagenese-hero-bottle.jpg" 
+            alt="Anagenèse The Regenerating Elixir bottle standing with luxury obsidian packaging" 
+            class="hero-product-img"
+            id="heroProductImage"
+            loading="eager"
+          >
+          <div class="hero-spec-tag">
+            <div class="spec-tag-title">VELARI PRIVÉ</div>
+            <div class="spec-tag-sub">40 mL / 1.35 fl. oz. • Smoked Crystal</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PRODUCT INTRODUCTION (MASSIVE WHITESPACE) (SECTION 6)
+       ========================================================================== -->
+  <section class="section product-intro-section" id="intro">
+    <div class="container product-intro-grid">
+      
+      <!-- Asymmetric Macro Product Asset -->
+      <div class="product-macro-stage">
+        <img 
+          src="assets/images/anagenese-bottle-hand.jpg" 
+          alt="Anagenèse precision glass bottle held in hand displaying smoked crystal translucency" 
+          class="product-macro-img"
+          loading="lazy"
+        >
+      </div>
+
+      <!-- Restrained Editorial Statement -->
+      <div class="product-intro-copy">
+        <span class="eyebrow">THE ARCHITECTURE OF ANAGENÈSE</span>
+        <h2 class="display-title-lg" style="margin-bottom: 1.5rem;">
+          THE REGENERATING ELIXIR
+        </h2>
+        <p class="editorial-lead" style="margin-bottom: 1.75rem;">
+          A precision-formulated scalp serum designed around the complex biology of the follicle, the epidermal scalp barrier, and the delicate hair-fibre microenvironment.
+        </p>
+        <p style="font-size: 0.9375rem; color: #555; line-height: 1.8; margin-bottom: 2rem;">
+          Formulated to transcend conventional cosmetic haircare, Anagenèse combines targeted signalling molecules with biomimetic red clover peptides and botanical micro-nutrients. Every drop is suspended in an ultra-weightless, rapid-absorbing hydro-matrix that leaves roots completely weightless and residue-free.
+        </p>
+
+        <!-- Formula Metadata -->
+        <div class="intro-formula-meta">
+          <div>
+            <div class="meta-item-label">Formula Origin</div>
+            <div class="meta-item-val">Australian Standards</div>
+          </div>
+          <div>
+            <div class="meta-item-label">Texture Profile</div>
+            <div class="meta-item-val">Weightless Nectar</div>
+          </div>
+          <div>
+            <div class="meta-item-label">Target Area</div>
+            <div class="meta-item-val">Follicular Dermis</div>
+          </div>
+          <div>
+            <div class="meta-item-label">Daily Cadence</div>
+            <div class="meta-item-val">Twice Daily Ritual</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       BRAND MANIFESTO (MUSEUM EDITORIAL) (SECTION 7)
+       ========================================================================== -->
+  <section class="section manifesto-section" id="manifesto">
+    <div class="manifesto-bg-texture"></div>
+    <div class="container manifesto-content">
+      <span class="eyebrow eyebrow-light">THE VELARI PRIVÉ PHILOSOPHY</span>
+      <h2 class="manifesto-title">A NEW STANDARD<br>IN SCALP SCIENCE</h2>
+      
+      <p class="manifesto-paragraph">
+        ANAGENÈSE is not built around a single fashionable hero ingredient. The formulation is designed around multiple pathways relevant to scalp and hair biology, combining targeted actives, scalp-supportive ingredients, delivery considerations, and formulation stability.
+      </p>
+
+      <p class="manifesto-paragraph" style="font-size: 1.15rem; color: #b5b1a5;">
+        Every active molecule has an explicit technical rationale for its presence. We reject superficial fragrances, unnecessary heavy silicones, and unsubstantiated claims in favour of uncompromising clinical integrity.
+      </p>
+
+      <div class="manifesto-statement">
+        DERMACEUTICAL BY DESIGN. EVIDENCE-LED BY CHOICE.
+      </div>
+
+      <!-- Three Editorial Micro-Statements -->
+      <div class="manifesto-pillars">
+        <span class="manifesto-pillar">BACKED BY SCIENCE</span>
+        <span style="color: var(--color-champagne-gold);">◆</span>
+        <span class="manifesto-pillar">PRECISION FORMULATION</span>
+        <span style="color: var(--color-champagne-gold);">◆</span>
+        <span class="manifesto-pillar">SCALP-FIRST DESIGN</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       THE SCIENCE SECTION (LUXURY BENTO GRID) (SECTION 8)
+       ========================================================================== -->
+  <section class="section science-section" id="science">
+    <div class="container">
+      
+      <div class="science-header">
+        <span class="eyebrow eyebrow-light">BIOLOGICAL PATHWAYS</span>
+        <h2 class="display-title-lg" style="margin-bottom: 1rem;">
+          THE SCIENCE BEHIND THE ELIXIR
+        </h2>
+        <p class="editorial-lead editorial-lead-dark">
+          Scalp biology operates across interlocking dermal layers. Anagenèse synchronizes three distinct scientific pathways to cultivate an optimal microenvironment.
+        </p>
+      </div>
+
+      <!-- Luxury Bento Grid -->
+      <div class="bento-grid">
+        
+        <!-- Pathway 01 -->
+        <div class="bento-card">
+          <div>
+            <div class="bento-card-index">01</div>
+            <h3 class="bento-card-title">FOLLICULAR SIGNALING</h3>
+            <p class="bento-card-desc">
+              Precision signalling molecules support communication at the dermal papilla. Designed to address dormant follicle cycles and promote sustained anagen duration through cellular nutrition and targeted biochemical cues.
+            </p>
+          </div>
+          <div class="bento-card-tag">Dermal Papilla & Stem Biology</div>
+        </div>
+
+        <!-- Pathway 02 -->
+        <div class="bento-card">
+          <div>
+            <div class="bento-card-index">02</div>
+            <h3 class="bento-card-title">SCALP ENVIRONMENT</h3>
+            <p class="bento-card-desc">
+              Optimal hair density cannot occur in a compromised microenvironment. The formula balances the scalp hydrolipidic barrier, soothes irritation markers, and neutralizes external oxidative stressors that weaken the follicle root.
+            </p>
+          </div>
+          <div class="bento-card-tag">Barrier Equilibrium & Hydration</div>
+        </div>
+
+        <!-- Pathway 03 -->
+        <div class="bento-card">
+          <div>
+            <div class="bento-card-index">03</div>
+            <h3 class="bento-card-title">HAIR-FIBRE SUPPORT</h3>
+            <p class="bento-card-desc">
+              Strengthens the connective extracellular matrix that anchors the hair shaft within the follicular sheath, helping resist environmental shed while supporting the structural integrity and visible caliber of emerging strands.
+            </p>
+          </div>
+          <div class="bento-card-tag">Extracellular Matrix Anchoring</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       KEY ACTIVE COMPLEXES (SECTION 9)
+       ========================================================================== -->
+  <section class="section actives-section" id="actives">
+    <div class="container">
+      
+      <div class="actives-header">
+        <span class="eyebrow">DERMACEUTICAL COMPLEX ARCHITECTURE</span>
+        <h2 class="display-title-lg" style="margin-bottom: 1rem;">
+          TARGETED ACTIVE COMPLEXES
+        </h2>
+        <p class="editorial-lead">
+          Three internationally acclaimed biotechnology complexes harmonized in exact stoichiometric concentration.
+        </p>
+      </div>
+
+      <div class="actives-grid">
+        
+        <!-- Complex 1: REDENSYL -->
+        <div class="active-complex-card">
+          <h3 class="complex-name">REDENSYL®</h3>
+          <div class="complex-classification">Cellular Signalling Complex</div>
+          <p class="complex-description">
+            A specialized biotechnological complex developed around follicular stem-cell and dermal-papilla biology. Contains pure DHQG and EGCG2 to support the active initiation of the follicular growth phase.
+          </p>
+          <div class="complex-metrics">
+            <strong>Biological Role:</strong> Stimulates anagen phase initiation and follicular vitality.
+          </div>
+        </div>
+
+        <!-- Complex 2: CAPIXYL -->
+        <div class="active-complex-card">
+          <h3 class="complex-name">CAPIXYL®</h3>
+          <div class="complex-classification">Biomimetic Peptide & Clover Extract</div>
+          <p class="complex-description">
+            Combines acetyl tetrapeptide-3 with biochanin A-rich Trifolium pratense (red clover) components, engineered around extracellular-matrix remodeling and follicle-anchoring collagen synthesis.
+          </p>
+          <div class="complex-metrics">
+            <strong>Biological Role:</strong> Anchors follicular sheath and reinforces dermal collagen.
+          </div>
+        </div>
+
+        <!-- Complex 3: PROCAPIL -->
+        <div class="active-complex-card">
+          <h3 class="complex-name">PROCAPIL®</h3>
+          <div class="complex-classification">Microvascular & Vitamin Complex</div>
+          <p class="complex-description">
+            Combines oleanolic acid, apigenin, and biotinyl tripeptide-1 to support follicular microcirculation, protect follicle health against premature aging, and fortify the hair root.
+          </p>
+          <div class="complex-metrics">
+            <strong>Biological Role:</strong> Supports vascular micro-perfusion and cellular longevity.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Evidence-Conscious Disclaimer Note -->
+      <div style="text-align: center; margin-top: 3.5rem; font-size: 0.75rem; color: #777; letter-spacing: 0.05em;">
+        * Anagenèse is a cosmetic dermaceutical serum. Formulations are designed to support scalp and follicle health without making medical treatment or drug claims.
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERACTIVE 3D FOLLICLE SCIENCE INSTALLATION (SECTION 10)
+       ========================================================================== -->
+  <section class="section follicle-section" id="follicle">
+    <div class="container">
+      
+      <div class="follicle-stage-container">
+        
+        <!-- Canvas Stage -->
+        <div class="follicle-canvas-wrapper" id="follicleCanvasWrapper">
+          <canvas id="follicleCanvas"></canvas>
+          <div class="canvas-interactive-hint">✦ Drag to Rotate 3D Follicle Structure</div>
+        </div>
+
+        <!-- Interactive Stage Controls & Readouts -->
+        <div class="follicle-info-panel">
+          <span class="eyebrow eyebrow-light">INTERACTIVE MOLECULAR SIMULATION</span>
+          <h2 class="display-title-lg" style="margin-bottom: 1rem; color: #fff;">
+            THE FOLLICLE,<br>REIMAGINED
+          </h2>
+          <p class="editorial-lead editorial-lead-dark">
+            Explore the abstract structural architecture of the follicle and the targeted penetration dynamics of Anagenèse.
+          </p>
+
+          <!-- Interactive Stage Selector Pills -->
+          <div class="stage-selector-pills">
+            
+            <div class="stage-pill active" data-stage="1" onclick="window.setFollicleStage(1)">
+              <span class="stage-pill-index">01</span>
+              <span class="stage-pill-title">Scalp Barrier Environment</span>
+              <span style="font-size:0.75rem; color:var(--color-champagne-gold);">→</span>
+            </div>
+
+            <div class="stage-pill" data-stage="2" onclick="window.setFollicleStage(2)">
+              <span class="stage-pill-index">02</span>
+              <span class="stage-pill-title">Follicular Signaling Dynamics</span>
+              <span style="font-size:0.75rem; color:var(--color-champagne-gold);">→</span>
+            </div>
+
+            <div class="stage-pill" data-stage="3" onclick="window.setFollicleStage(3)">
+              <span class="stage-pill-index">03</span>
+              <span class="stage-pill-title">Targeted Dermaceutical Actives</span>
+              <span style="font-size:0.75rem; color:var(--color-champagne-gold);">→</span>
+            </div>
+
+            <div class="stage-pill" data-stage="4" onclick="window.setFollicleStage(4)">
+              <span class="stage-pill-index">04</span>
+              <span class="stage-pill-title">Hair-Fibre Matrix Stability</span>
+              <span style="font-size:0.75rem; color:var(--color-champagne-gold);">→</span>
+            </div>
+
+          </div>
+
+          <!-- Dynamic Readout Box -->
+          <div class="stage-dynamic-readout" id="stageReadoutText">
+            The follicular microenvironment requires an optimal lipid barrier, balanced sebum composition, and uncompromised cellular hydration to maintain follicle receptivity.
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SCALP ATLAS DIAGNOSTIC MAP (SECTION 14)
+       ========================================================================== -->
+  <section class="section scalp-atlas-section" id="atlas">
+    <div class="container">
+      
+      <div class="atlas-header">
+        <span class="eyebrow">ANATOMICAL DIAGNOSTIC GUIDE</span>
+        <h2 class="display-title-lg" style="margin-bottom: 1rem;">
+          THE SCALP ATLAS
+        </h2>
+        <p class="editorial-lead">
+          Different cranial zones possess distinct vascular networks and vulnerability profiles. Select a region below to inspect targeted application protocols.
+        </p>
+      </div>
+
+      <!-- Scalp Atlas Workbench -->
+      <div class="atlas-workbench">
+        
+        <!-- Scalp SVG Anatomical Diagram -->
+        <div class="atlas-visual-stage">
+          <svg class="scalp-svg-map" viewBox="0 0 400 440" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="scalpBgGrad" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#FAF9F6"/>
+                <stop offset="100%" stop-color="#EFECE3"/>
+              </radialGradient>
+            </defs>
+            
+            <!-- Anatomical Head Contour -->
+            <path d="M 80 230 C 80 110, 140 50, 200 50 C 260 50, 320 110, 320 230 C 320 330, 280 390, 200 390 C 120 390, 80 330, 80 230 Z" 
+                  fill="url(#scalpBgGrad)" stroke="#222" stroke-width="2"/>
+            
+            <!-- Ear Markers -->
+            <path d="M 78 200 C 65 210, 65 250, 79 265" fill="none" stroke="#666" stroke-width="1.5"/>
+            <path d="M 322 200 C 335 210, 335 250, 321 265" fill="none" stroke="#666" stroke-width="1.5"/>
+
+            <!-- ZONES -->
+            <!-- 1. Frontal Zone -->
+            <path class="scalp-zone-path" data-zone="frontal"
+                  d="M 130 95 C 160 80, 240 80, 270 95 C 260 135, 140 135, 130 95 Z" />
+
+            <!-- 2. Temporal Recessions -->
+            <path class="scalp-zone-path" data-zone="temporal"
+                  d="M 100 130 C 130 110, 140 160, 115 190 C 95 180, 90 150, 100 130 Z" />
+            <path class="scalp-zone-path" data-zone="temporal"
+                  d="M 300 130 C 270 110, 260 160, 285 190 C 305 180, 310 150, 300 130 Z" />
+
+            <!-- 3. Mid-Scalp -->
+            <path class="scalp-zone-path" data-zone="midscalp"
+                  d="M 150 145 C 170 140, 230 140, 250 145 C 245 220, 155 220, 150 145 Z" />
+
+            <!-- 4. Crown Vertex (Apex) -->
+            <ellipse class="scalp-zone-path active" data-zone="crown" cx="200" cy="275" rx="55" ry="45" />
+
+            <!-- Labels within SVG -->
+            <text x="200" y="112" text-anchor="middle" font-size="10" font-family="'Inter', sans-serif" fill="#444" letter-spacing="1">FRONTAL</text>
+            <text x="200" y="180" text-anchor="middle" font-size="10" font-family="'Inter', sans-serif" fill="#444" letter-spacing="1">MID-SCALP</text>
+            <text x="200" y="278" text-anchor="middle" font-size="10" font-family="'Inter', sans-serif" fill="#222" font-weight="600" letter-spacing="1">CROWN VERTEX</text>
+            <text x="110" y="155" text-anchor="middle" font-size="8" font-family="'Inter', sans-serif" fill="#444">TEMP</text>
+            <text x="290" y="155" text-anchor="middle" font-size="8" font-family="'Inter', sans-serif" fill="#444">TEMP</text>
+          </svg>
+        </div>
+
+        <!-- Diagnostics Readout Card -->
+        <div>
+          <!-- Quick Selection Buttons -->
+          <div class="atlas-zone-buttons">
+            <button class="atlas-zone-btn" data-zone="frontal">Frontal</button>
+            <button class="atlas-zone-btn" data-zone="temporal">Temporal</button>
+            <button class="atlas-zone-btn active" data-zone="crown">Crown Apex</button>
+            <button class="atlas-zone-btn" data-zone="midscalp">Mid-Scalp</button>
+            <button class="atlas-zone-btn" data-zone="overall">Global Density</button>
+          </div>
+
+          <div class="atlas-diagnostics-card">
+            <h3 class="atlas-zone-title" id="atlasZoneTitle">Crown & Vertex Apex</h3>
+            <div class="atlas-dosing-badge" id="atlasDosingBadge">Recommended Protocol: 0.5 mL (Approx. 1 Full Pipette)</div>
+            <p class="atlas-zone-desc" id="atlasZoneDesc">
+              The vertex is a primary focal point for diffuse miniaturization and thinning due to vascular distance and gravity.
+            </p>
+            <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.18em; color:var(--color-obsidian); font-weight:600; margin-bottom:0.75rem;">
+              Application Protocol:
+            </div>
+            <ul class="atlas-zone-points" id="atlasZonePoints">
+              <li>Radial sectioning: divide crown into cross-hair quadrants.</li>
+              <li>Apply elixir directly to the scalp centre.</li>
+              <li>Massage outward in spiral motions from crown apex.</li>
+              <li>Ensure formula contacts scalp barrier, not just hair shaft.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       THE 4-STEP LUXURY RITUAL (SECTION 13)
+       ========================================================================== -->
+  <section class="section ritual-section" id="ritual">
+    <div class="container">
+      
+      <div class="ritual-header">
+        <span class="eyebrow">THE DAILY CEREMONY</span>
+        <h2 class="display-title-lg" style="margin-bottom: 1rem;">
+          THE 4-STEP LUXURY RITUAL
+        </h2>
+        <p class="editorial-lead">
+          Consistency is the soul of dermaceutical efficacy. A disciplined two-minute ritual engineered to transform hair care into a restorative private meditation.
+        </p>
+      </div>
+
+      <!-- 4 Ritual Steps -->
+      <div class="ritual-grid">
+        
+        <div class="ritual-step-card">
+          <div class="step-numeral">01</div>
+          <h3 class="step-title">PREPARE</h3>
+          <p class="step-desc">
+            Begin with a clean, towel-dry or dry scalp. Part hair cleanly with fingers or a wide-tooth comb to expose the scalp skin along your targeted zone.
+          </p>
+        </div>
+
+        <div class="ritual-step-card">
+          <div class="step-numeral">02</div>
+          <h3 class="step-title">APPLY</h3>
+          <p class="step-desc">
+            Draw the elixir using the precision dropper. Dispense droplets directly onto the roots and scalp surface rather than hair strands to ensure direct dermal contact.
+          </p>
+        </div>
+
+        <div class="ritual-step-card">
+          <div class="step-numeral">03</div>
+          <h3 class="step-title">MASSAGE</h3>
+          <p class="step-desc">
+            Gently distribute using firm circular fingertip acupressure for 60 to 90 seconds. Stimulate local microcirculation until fully absorbed. Do not rinse.
+          </p>
+        </div>
+
+        <div class="ritual-step-card">
+          <div class="step-numeral">04</div>
+          <h3 class="step-title">REPEAT</h3>
+          <p class="step-desc">
+            Adopt as a non-negotiable twice-daily ritual — once in the morning and once before evening rest. Consistency drives follicular conditioning over time.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EVIDENCE & ROUTINE TIMELINE (SECTION 15)
+       ========================================================================== -->
+  <section class="section timeline-section" id="timeline">
+    <div class="container">
+      
+      <div class="timeline-header">
+        <span class="eyebrow eyebrow-light">THE JOURNEY FROM RITUAL TO RESULT</span>
+        <h2 class="display-title-lg" style="margin-bottom: 1rem;">
+          THE ROUTINE TIMELINE
+        </h2>
+        <p class="editorial-lead editorial-lead-dark">
+          Suggested evaluation milestones based on the biological timeline of scalp conditioning and follicle cycles.
+        </p>
+      </div>
+
+      <div class="timeline-grid">
+        
+        <div class="timeline-card">
+          <div class="timeline-week">WEEK 02</div>
+          <div class="timeline-phase-name">Barrier Equilibrium</div>
+          <p class="timeline-milestones">
+            Scalp hydration balances, flakiness and tightness diminish. The weightless elixir establishes an optimal follicular microenvironment without greasiness.
+          </p>
+        </div>
+
+        <div class="timeline-card">
+          <div class="timeline-week">WEEK 04</div>
+          <div class="timeline-phase-name">Follicular Priming</div>
+          <p class="timeline-milestones">
+            Active tri-complex nutrients penetrate cellular roots. Daily shedding begins to stabilize within normal physiological boundaries as anchoring is reinforced.
+          </p>
+        </div>
+
+        <div class="timeline-card">
+          <div class="timeline-week">WEEK 08</div>
+          <div class="timeline-phase-name">Matrix Reinforcement</div>
+          <p class="timeline-milestones">
+            Emerging strands exhibit enhanced tactile strength and caliber at the root base. Hair density feels perceptibly firmer across focal styling partings.
+          </p>
+        </div>
+
+        <div class="timeline-card">
+          <div class="timeline-week">WEEK 12</div>
+          <div class="timeline-phase-name">Cumulative Density</div>
+          <p class="timeline-milestones">
+            Sustained twice-daily discipline reveals visible scalp coverage refinement, healthier follicular vitality, and enriched hair substance.
+          </p>
+        </div>
+
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem; font-size: 0.6875rem; color: #777;">
+        * Individual timelines vary based on age, genetics, nutritional status and routine consistency.
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       BOTANICAL & FORMULATION ATELIER (SECTIONS 16 & 17)
+       ========================================================================== -->
+  <section class="section botanical-section" id="botanical">
+    <div class="botanical-split">
+      
+      <!-- High Fashion Botanical Image -->
+      <div class="botanical-media-col">
+        <img 
+          src="assets/images/botanical-macro.jpg" 
+          alt="Macro botanical leaf with crystalline dewdrops on polished black obsidian stone"
+          loading="lazy"
+        >
+      </div>
+
+      <!-- Editorial Narrative Column -->
+      <div class="botanical-content-col">
+        <span class="eyebrow eyebrow-light">HARMONY OF HIGH BOTANICALS & DERMAL CLINICS</span>
+        <h2 class="display-title-lg" style="margin-bottom: 1.5rem; color: #fff;">
+          WHERE SCIENCE<br>MEETS NATURE
+        </h2>
+        <p class="editorial-lead">
+          At Velari Privé, nature is not treated as a sentimental marketing story — it is harvested as a library of molecular potency.
+        </p>
+        <p style="font-size: 0.9375rem; color: #999; line-height: 1.8; margin-bottom: 2.5rem;">
+          From the biochanin flavonoids of red clover to green tea polyphenols and olive-derived oleanolic acid, each botanical extract is standardized to pharmaceutical-grade purity. When synthesized alongside biomimetic peptides, they create an extraordinary symbiosis of biological biocompatibility and technological strength.
+        </p>
+
+        <div>
+          <a href="#product" class="btn btn-primary-gold">Explore The Formulation</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       THE OBJECT: AUTHENTIC PACKAGING & UNBOXING (SECTION 20)
+       ========================================================================== -->
+  <section class="section object-section" id="object">
+    <div class="container">
+      
+      <div class="object-header">
+        <span class="eyebrow">PHYSICAL ARCHITECTURE</span>
+        <h2 class="display-title-lg" style="margin-bottom: 1rem;">
+          THE OBJECT
+        </h2>
+        <p class="editorial-lead">
+          Every facet of the physical bottle has been weighted, calibrated, and finished to reflect monolithic luxury.
+        </p>
+      </div>
+
+      <!-- 4 Authentic Product Visuals -->
+      <div class="object-gallery-grid">
+        
+        <!-- Image 1: Hero Bottle with Box -->
+        <div class="object-card">
+          <div class="object-card-image-wrap">
+            <img src="assets/images/anagenese-hero-bottle.jpg" alt="Anagenèse bottle standing in front of black gift packaging" loading="lazy">
+          </div>
+          <div class="object-card-meta">
+            <h3 class="object-card-title">The Monolith</h3>
+            <p class="object-card-desc">Weighted smoked glass shielding sensitive peptide complexes from photodegradation.</p>
+          </div>
+        </div>
+
+        <!-- Image 2: Velari Privé Crest -->
+        <div class="object-card">
+          <div class="object-card-image-wrap">
+            <img src="assets/images/velari-prive-bottle.jpg" alt="Velari Privé brand crest and Scalp Science Redefined badge" loading="lazy">
+          </div>
+          <div class="object-card-meta">
+            <h3 class="object-card-title">The Emblem</h3>
+            <p class="object-card-desc">Velari Privé hallmark in satin champagne script: Scalp Science Redefined.</p>
+          </div>
+        </div>
+
+        <!-- Image 3: Hand Held Ombre Glass -->
+        <div class="object-card">
+          <div class="object-card-image-wrap">
+            <img src="assets/images/anagenese-bottle-hand.jpg" alt="Anagenèse gradient smoked glass bottle held in hand" loading="lazy">
+          </div>
+          <div class="object-card-meta">
+            <h3 class="object-card-title">The Ombre Glass</h3>
+            <p class="object-card-desc">Graduated obsidian to crystal transparency revealing the remaining volume with precision.</p>
+          </div>
+        </div>
+
+        <!-- Image 4: Bottle Back & Australian Formula -->
+        <div class="object-card">
+          <div class="object-card-image-wrap">
+            <img src="assets/images/anagenese-bottle-back.jpg" alt="Back of bottle showing directions and Australian formula made in India" loading="lazy">
+          </div>
+          <div class="object-card-meta">
+            <h3 class="object-card-title">The Specification</h3>
+            <p class="object-card-desc">Complete formulation guidance, Australian standards compliance, and 40 mL batch seal.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PRODUCT DISCOVERY & PURCHASE (SECTION 19)
+       ========================================================================== -->
+  <section class="section product-showcase-section" id="product">
+    <div class="container product-showcase-grid">
+      
+      <!-- Visual Display -->
+      <div class="product-main-visual">
+        <img 
+          src="assets/images/anagenese-hero-bottle.jpg" 
+          alt="Anagenèse The Regenerating Elixir 40 mL by Velari Privé"
+          id="productPurchaseImage"
+        >
+      </div>
+
+      <!-- Purchase & Reservation Box -->
+      <div class="product-purchase-box">
+        <span class="eyebrow">FLAGSHIP ACQUISITION</span>
+        <h2 class="display-title-lg" style="margin-bottom: 0.5rem;">
+          ANAGENÈSE
+        </h2>
+        <div style="font-family: var(--font-serif); font-size: 1.5rem; font-style: italic; color: #444; margin-bottom: 1.5rem;">
+          The Regenerating Elixir
+        </div>
+
+        <p class="editorial-lead" style="margin-bottom: 1.5rem;">
+          Evidence-optimised dermaceutical scalp & hair-density serum. Packaged in a 40 mL UV-protective smoked glass flacon with a metered precision dropper.
+        </p>
+
+        <!-- Price & Volume -->
+        <div class="product-price-row">
+          <span class="product-price" id="productDynamicPrice">₹4,950</span>
+          <span class="product-volume">40 mL / 1.35 FL. OZ.</span>
+        </div>
+
+        <!-- Regimen Selection -->
+        <div class="product-options-row">
+          <div class="option-pill active" data-type="single">
+            <div class="option-title">Single Flacon</div>
+            <div class="option-detail">40 mL • 30-Day Ritual</div>
+          </div>
+          <div class="option-pill" data-type="duo">
+            <div class="option-title">Duo Regimen Set</div>
+            <div class="option-detail">2 × 40 mL • 60-Day Discipline (Save 10%)</div>
+          </div>
+        </div>
+
+        <!-- Add To Ritual -->
+        <div class="add-ritual-bar">
+          <button class="btn btn-primary-dark" id="mainAddToRitualBtn" style="flex: 1;">
+            ADD TO RITUAL
+          </button>
+        </div>
+
+        <!-- Luxury Guarantees -->
+        <ul class="product-guarantee-list">
+          <li>Complimentary 5 mL Travel Discovery Vial included with every flacon</li>
+          <li>Signature Velari Privé Obsidian gift box & archival storage pouch</li>
+          <li>Freshly serialized laboratory batch preservation</li>
+          <li>Direct concierge shipping with tracked courier delivery</li>
+        </ul>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       BRAND STORY: THE ART OF PRECISION (SECTION 22)
+       ========================================================================== -->
+  <section class="section" id="story" style="background-color: #F8F6F0; border-top: 1px solid rgba(8,8,8,0.06);">
+    <div class="container container-narrow" style="text-align: center;">
+      <span class="eyebrow">THE MAISON</span>
+      <h2 class="display-title-lg" style="margin-bottom: 2rem;">
+        VELARI PRIVÉ
+      </h2>
+      <div style="font-family: var(--font-serif); font-size: 1.6rem; font-style: italic; color: #333; margin-bottom: 2.5rem;">
+        The Art of Precision.
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; text-align: left; margin-top: 3.5rem;">
+        <div>
+          <div style="font-family: var(--font-serif); font-size: 1.35rem; margin-bottom: 0.5rem;">Discipline</div>
+          <p style="font-size: 0.8125rem; color: #666; line-height: 1.7;">
+            We believe luxury beauty should be anchored in formulation discipline rather than fleeting cosmetic trends.
+          </p>
+        </div>
+        <div>
+          <div style="font-family: var(--font-serif); font-size: 1.35rem; margin-bottom: 0.5rem;">Material</div>
+          <p style="font-size: 0.8125rem; color: #666; line-height: 1.7;">
+            From raw peptide synthesis to custom smoked glass, material integrity guides every tactile touchpoint.
+          </p>
+        </div>
+        <div>
+          <div style="font-family: var(--font-serif); font-size: 1.35rem; margin-bottom: 0.5rem;">Ritual</div>
+          <p style="font-size: 0.8125rem; color: #666; line-height: 1.7;">
+            Elevating daily self-care into an unhurried, evidence-backed ceremony of restoration and confidence.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FINAL MONOLITHIC CTA (SECTION 23)
+       ========================================================================== -->
+  <section class="final-cta-section" id="finalCta">
+    <div class="container container-narrow">
+      <span class="eyebrow eyebrow-light">THE COMMENCEMENT</span>
+      <h2 class="final-cta-title">
+        BEGIN<br>YOUR RITUAL.
+      </h2>
+      <div class="final-cta-subtitle">
+        ANAGENÈSE — The Regenerating Elixir
+      </div>
+
+      <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+        <a href="#product" class="btn btn-primary-gold">
+          Discover The Elixir
+        </a>
+        <button class="btn btn-ghost-light open-consultation-trigger">
+          Private Consultation
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       LUXURY FOOTER (SECTION 24)
+       ========================================================================== -->
+  <footer class="footer-section">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <!-- Brand Info -->
+        <div>
+          <div class="footer-brand-title">VELARI PRIVÉ</div>
+          <p style="font-size: 0.8125rem; color: #888; line-height: 1.8; margin-bottom: 1.5rem;">
+            An elite dermaceutical beauty house engineering evidence-optimised scalp biology and hair-density elixirs.
+          </p>
+          <div style="font-size: 0.75rem; color: var(--color-champagne-light); letter-spacing: 0.15em;">
+            AUSTRALIAN FORMULA • SCALP SCIENCE REDEFINED
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div>
+          <div class="footer-col-title">Exploration</div>
+          <ul class="footer-links">
+            <li><a href="#intro">The Elixir</a></li>
+            <li><a href="#science">The Science</a></li>
+            <li><a href="#actives">Active Complexes</a></li>
+            <li><a href="#follicle">3D Follicle Simulation</a></li>
+            <li><a href="#atlas">Scalp Atlas</a></li>
+          </ul>
+        </div>
+
+        <!-- Regimen Links -->
+        <div>
+          <div class="footer-col-title">Ceremony</div>
+          <ul class="footer-links">
+            <li><a href="#ritual">The 4-Step Ritual</a></li>
+            <li><a href="#timeline">Milestone Timeline</a></li>
+            <li><a href="#object">The Object & Unboxing</a></li>
+            <li><a href="#" class="open-consultation-trigger">Digital Atelier</a></li>
+            <li><a href="#product">Acquire Flacon</a></li>
+          </ul>
+        </div>
+
+        <!-- Client Care -->
+        <div>
+          <div class="footer-col-title">Concierge & Legal</div>
+          <ul class="footer-links">
+            <li><a href="#product">Bespoke Shipping</a></li>
+            <li><a href="#finalCta">Batch Authentication</a></li>
+            <li><a href="#">Privacy Protocol</a></li>
+            <li><a href="#">Terms of Care</a></li>
+            <li><a href="#">Cosmetic Compliance</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Legal & Medical Disclaimers -->
+      <div class="footer-disclaimer">
+        <p style="margin-bottom: 0.75rem;">
+          <strong>COSMETIC DISCLAIMER:</strong> ANAGENÈSE is an evidence-optimised cosmetic dermaceutical serum intended for external cosmetic scalp and hair conditioning. It is not formulated to diagnose, cure, mitigate, treat, or prevent any dermatological disease or medical hair condition. Individual results will naturally vary.
+        </p>
+        <p>
+          © 2026 VELARI PRIVÉ. All rights reserved. Master visual architecture inspired by monolithic luxury minimalism.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       DIGITAL ATELIER CONSULTATION MODAL (SECTION 18)
+       ========================================================================== -->
+  <div class="atelier-modal" id="atelierModal" role="dialog" aria-modal="true" aria-label="Digital Atelier Consultation">
+    <div class="atelier-container">
+      <button class="atelier-close-btn" id="closeAtelierModalBtn" aria-label="Close Consultation">&times;</button>
+
+      <!-- Progress Track -->
+      <div class="atelier-progress-track">
+        <div class="atelier-progress-bar" id="atelierProgressBar"></div>
+      </div>
+
+      <!-- STEP 1 -->
+      <div class="consultation-step active" id="consultationStep1">
+        <span class="eyebrow eyebrow-light">DIAGNOSTIC STEP 01 / 04</span>
+        <h2 style="font-family:var(--font-serif); font-size:2.5rem; margin-bottom:1rem; color:#fff;">
+          WHAT BEST DESCRIBES YOUR PRIMARY SCALP CONCERN?
+        </h2>
+        <p style="font-size:0.875rem; color:#888;">Select the focal priority for your personal ritual formulation.</p>
+
+        <div class="atelier-options-grid">
+          <div class="atelier-choice-card" data-step="1" data-value="density">
+            <div class="atelier-choice-title">Overall Density & Fullness</div>
+            <div class="atelier-choice-sub">Global thinning or diffuse density reduction</div>
+          </div>
+          <div class="atelier-choice-card" data-step="1" data-value="crown">
+            <div class="atelier-choice-title">Crown & Parting Width</div>
+            <div class="atelier-choice-sub">Localized thinning at the vertex or widened hair parting</div>
+          </div>
+          <div class="atelier-choice-card" data-step="1" data-value="hairline">
+            <div class="atelier-choice-title">Hairline & Temporal Recession</div>
+            <div class="atelier-choice-sub">Fragile temporal edges and receding anterior margins</div>
+          </div>
+          <div class="atelier-choice-card" data-step="1" data-value="scalp">
+            <div class="atelier-choice-title">Scalp Barrier & Shedding</div>
+            <div class="atelier-choice-sub">Compromised microenvironment, dryness, or seasonal shedding</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="consultation-step" id="consultationStep2">
+        <span class="eyebrow eyebrow-light">DIAGNOSTIC STEP 02 / 04</span>
+        <h2 style="font-family:var(--font-serif); font-size:2.5rem; margin-bottom:1rem; color:#fff;">
+          WHERE DO YOU NOTICE THE SHIFT MOST PROMINENTLY?
+        </h2>
+        <p style="font-size:0.875rem; color:#888;">Pinpoint your focal anatomical zone for tailored pipette dispensing guidance.</p>
+
+        <div class="atelier-options-grid">
+          <div class="atelier-choice-card" data-step="2" data-value="crown">
+            <div class="atelier-choice-title">Crown Apex (Vertex)</div>
+            <div class="atelier-choice-sub">High gravitational tension and diffuse follicle stress</div>
+          </div>
+          <div class="atelier-choice-card" data-step="2" data-value="frontal">
+            <div class="atelier-choice-title">Frontal Margin</div>
+            <div class="atelier-choice-sub">Anterior forehead perimeter and styling exposure</div>
+          </div>
+          <div class="atelier-choice-card" data-step="2" data-value="temporal">
+            <div class="atelier-choice-title">Bilateral Temples</div>
+            <div class="atelier-choice-sub">Fine delicate hair caliber and sensitive dermal roots</div>
+          </div>
+          <div class="atelier-choice-card" data-step="2" data-value="diffuse">
+            <div class="atelier-choice-title">Full Cranial Spread</div>
+            <div class="atelier-choice-sub">Uniform density maintenance across all regions</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="consultation-step" id="consultationStep3">
+        <span class="eyebrow eyebrow-light">DIAGNOSTIC STEP 03 / 04</span>
+        <h2 style="font-family:var(--font-serif); font-size:2.5rem; margin-bottom:1rem; color:#fff;">
+          HOW WOULD YOU CHARACTERIZE YOUR SCALP BARRIER?
+        </h2>
+        <p style="font-size:0.875rem; color:#888;">Assesses sebum equilibrium and trans-epidermal moisture levels.</p>
+
+        <div class="atelier-options-grid">
+          <div class="atelier-choice-card" data-step="3" data-value="balanced">
+            <div class="atelier-choice-title">Balanced & Resilient</div>
+            <div class="atelier-choice-sub">Normal sebum production without notable irritation</div>
+          </div>
+          <div class="atelier-choice-card" data-step="3" data-value="dry">
+            <div class="atelier-choice-title">Dry & Tension-Prone</div>
+            <div class="atelier-choice-sub">Frequent tightness, flaking, or dehydrated roots</div>
+          </div>
+          <div class="atelier-choice-card" data-step="3" data-value="oily">
+            <div class="atelier-choice-title">Oil-Prone / Fast Build-up</div>
+            <div class="atelier-choice-sub">Requires frequent washing, excess sebum at roots</div>
+          </div>
+          <div class="atelier-choice-card" data-step="3" data-value="sensitive">
+            <div class="atelier-choice-title">Reactive / Sensitive</div>
+            <div class="atelier-choice-sub">Prone to redness, burning, or stinging from products</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 4 -->
+      <div class="consultation-step" id="consultationStep4">
+        <span class="eyebrow eyebrow-light">DIAGNOSTIC STEP 04 / 04</span>
+        <h2 style="font-family:var(--font-serif); font-size:2.5rem; margin-bottom:1rem; color:#fff;">
+          WHAT CADENCE BEST SUITS YOUR DAILY RITUAL?
+        </h2>
+        <p style="font-size:0.875rem; color:#888;">Routine discipline directly shapes clinical outcomes.</p>
+
+        <div class="atelier-options-grid">
+          <div class="atelier-choice-card" data-step="4" data-value="Twice Daily (Morning & Evening)">
+            <div class="atelier-choice-title">Twice Daily Disciplined</div>
+            <div class="atelier-choice-sub">Recommended gold standard: 1 dose morning, 1 dose night</div>
+          </div>
+          <div class="atelier-choice-card" data-step="4" data-value="Once Daily (Night Ritual)">
+            <div class="atelier-choice-title">Once Daily (Evening Ritual)</div>
+            <div class="atelier-choice-sub">Concentrated application before nocturnal cell renewal</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 5: PRESCRIPTION RESULT -->
+      <div class="consultation-step" id="consultationStep5">
+        <div id="ritualBlueprintContent"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       RITUAL BAG SLIDE-OUT DRAWER (SECTION 19)
+       ========================================================================== -->
+  <div class="cart-drawer-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-label="Ritual Bag">
+    <div class="cart-drawer-header">
+      <div style="font-family:var(--font-serif); font-size:1.25rem;">YOUR RITUAL BAG</div>
+      <button id="closeCartDrawerBtn" style="background:none; border:none; font-size:1.5rem; cursor:pointer;" aria-label="Close Bag">&times;</button>
+    </div>
+
+    <div class="cart-drawer-body" id="cartItemsList">
+      <!-- Items dynamically populated via cart.js -->
+    </div>
+
+    <div class="cart-drawer-footer">
+      <div class="cart-subtotal-row">
+        <span>Regimen Investment</span>
+        <span id="cartSubtotalAmount">₹4,950</span>
+      </div>
+      <p style="font-size:0.75rem; color:#666; margin-bottom:1.25rem; line-height:1.5;">
+        Includes complimentary 5 mL Travel Discovery Vial, signature Obsidian Flacon presentation box & insured delivery.
+      </p>
+      <button class="btn btn-primary-dark" id="proceedCheckoutBtn" style="width: 100%;">
+        PROCEED TO PRIVÉ CHECKOUT
+      </button>
+    </div>
+  </aside>
+
+  <!-- SCRIPTS -->
+  <script src="js/three-follicle.js"></script>
+  <script src="js/scalp-atlas.js"></script>
+  <script src="js/digital-atelier.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

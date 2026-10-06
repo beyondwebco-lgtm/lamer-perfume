@@ -1,0 +1,54 @@
+:root {
+  /* PRIVÉ — MONOLITHIC MINIMALISM COLOR SYSTEM */
+  --color-obsidian: #080808;
+  --color-obsidian-rgb: 8, 8, 8;
+  --color-deep-charcoal: #151515;
+  --color-matte-charcoal: #232323;
+  --color-charcoal-muted: #3a3a3a;
+  --color-border-dark: rgba(255, 255, 255, 0.08);
+  --color-border-light: rgba(8, 8, 8, 0.08);
+
+  --color-alabaster: #F5F2EA;
+  --color-alabaster-muted: #EAE6DB;
+  --color-alabaster-card: #FFFFFF;
+  --color-pure-white: #FFFFFF;
+  --color-off-white: #FAF9F5;
+
+  /* METALLIC RESTRAINED ACCENTS (Used sparingly) */
+  --color-champagne-gold: #B89A5A;
+  --color-champagne-gold-rgb: 184, 154, 90;
+  --color-champagne-light: #D4BE84;
+  --color-satin-brass: #9D8247;
+  --color-gold-tint: rgba(184, 154, 90, 0.12);
+  --color-gold-border: rgba(184, 154, 90, 0.25);
+
+  /* TYPOGRAPHY */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-monogram: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+
+  /* SPACING TOKENS (Editorial Scale) */
+  --space-3xs: 0.25rem; /* 4px */
+  --space-2xs: 0.5rem;  /* 8px */
+  --space-xs: 0.75rem;  /* 12px */
+  --space-sm: 1rem;     /* 16px */
+  --space-md: 1.5rem;   /* 24px */
+  --space-lg: 2rem;     /* 32px */
+  --space-xl: 3rem;     /* 48px */
+  --space-2xl: 4.5rem;  /* 72px */
+  --space-3xl: 6rem;    /* 96px */
+  --space-4xl: 9rem;    /* 144px */
+
+  /* LAYOUT */
+  --container-max-width: 1440px;
+  --container-padding: clamp(1.25rem, 4vw, 3.5rem);
+  --header-height: 84px;
+
+  /* MOTION & TRANSITIONS */
+  --ease-cinematic: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration-fast: 220ms;
+  --duration-medium: 450ms;
+  --duration-slow: 800ms;
+  --duration-luxe: 1200ms;
+}
